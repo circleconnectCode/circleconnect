@@ -1,0 +1,30 @@
+.app-container {
+    text-align: center;
+  }
+  
+  .app-header {
+    display: flex;  
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #74b0fa;
+  }
+  
+  .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
